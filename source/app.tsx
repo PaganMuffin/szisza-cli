@@ -256,6 +256,7 @@ export default function App() {
 					)}
 					{!isLoading && (
 						<SelectInput
+							limit={10}
 							//@ts-ignore
 							items={generateItemsList()}
 							//@ts-ignore
